@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.containter {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #beebe9;
+}
+
+.currentInput{
+    width: 580px;
+    height: 60px;
+    border: 3px #ffe3ed solid;
+    border-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:flex;
+    align-items: center;
+    direction: rtl;
+    background-color: #fffdf9
+   
+}
+p {
+    direction: rtl;
+    font-size: 30px;
+    padding-right: 10px;
+   
+  }
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 580px;
+    width: 580px;
+    border: 3px #ffe3ed solid;
+    align-content: space-around;
+    justify-content: space-around;
+    background-color: #ffa41b;
+    
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #75daad;
+    font-size: 24px;
+    
+}
+
+.mButtons {
+    background-color: #8ac6d1
+}
+.numButton {
+    background-color: #edffea
+}
+.signButton{
+    background-color: #edffea
+}
+.operatorButton {
+    background-color: #f4eeff
+}
